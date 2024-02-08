@@ -54,11 +54,15 @@ nav ul {
 }
 
 main {
-    background-color: blue;
+    background-color: lightcyan;
     display: flex;
-    padding: 50px;
     text-align: right;
     flex-wrap: wrap;
+}
+
+section #cool {
+    display: flex;
+
 }
 
 
@@ -101,16 +105,18 @@ main {
 img {width: 100%;
     size: 10px 10px;
     margin: 0 0;
-    height: 50%;
     background-size: cover;
     background-repeat: no-repeat;
+}
+#img header {
+    padding: 20px;
+    background: #13293d;
+    color: #fff
 }
 
 
    
-.Work {
-    border-right: solid lightseagreen;
-    text-wrap: wrap;
+.Work {text-wrap: wrap;
     font-size: 50px;
     display: flex;
     color: darkcyan;
@@ -118,7 +124,8 @@ img {width: 100%;
    
 }
 
-#Work {padding-right: 50px;
+#Work {padding-bottom: 480px;
+    padding-right: 50px;
     font-size: 60px;
     border-right: solid lightseagreen;
     display: flex;
@@ -128,8 +135,7 @@ img {width: 100%;
 
 }
 
-.Footer {border-right: solid lightseagreen;
-    text-wrap: wrap;
+.Footer {text-wrap: wrap;
     font-size: 50px;
     display: flex;
     color: darkcyan;
@@ -167,4 +173,57 @@ ul {
     margin-top: 50px;
     font-size: 60%;
     color: lightseagreen;
+}
+
+.code {flex: 1 0 0;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+
+}
+
+article .code {padding: 10px 10px;
+    flex: 1 0 0;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    
+
+}
+.code header {
+    padding: 20px;
+    background: #13293d;
+    color: #fff
+
+}
+
+.Himage {
+    height: 320px;
+    width: 100%;
+    min-width: 400px;
+
+}
+
+.java {flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.java header {
+    padding: 20px;
+    background: #13293d;
+    color: #fff
+    
+
+}
+
+.JavImage {height: 370px;
+    width: 100%;
+    min-width: 400px;
+
+
 }
